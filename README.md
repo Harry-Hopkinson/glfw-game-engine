@@ -1,2 +1,2 @@
 # game-engine
-A Game Engine created in C++
+A Game Engine created in C
