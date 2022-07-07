@@ -1,11 +1,10 @@
 # game-engine
 
-A Game Engine created in C
+A Game Engine created in C which used SDL2
 
 ## Building
 
 ```bash
 cd scripts
-chmod +x build.bat
-build.bat
+./build.bat
 ```
