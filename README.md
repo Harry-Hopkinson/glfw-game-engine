@@ -5,7 +5,7 @@ A Game Engine created in C++
 ## Building
 
 ```bash
-cmake build
+cmake --build build
 ```
 
 ## Running
