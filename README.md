@@ -5,12 +5,11 @@ A Game Engine created in C++
 ## Building
 
 ```bash
-cd scripts
-./build.bat
+cmake build
 ```
 
 ## Running
 
 ```bash
-game.exe
+./build/game-engine.exe
 ```
