@@ -12,7 +12,6 @@
 *.exe
 *.out
 *.app
-game-engine
 
 # CMakeFiles
 CMakeFiles
