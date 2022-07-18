@@ -4,6 +4,10 @@ A Game Engine created in C++
 
 # CLI
 
+## Installing
+
+sudo apt install mesa-common-dev
+
 ## Building
 
 ```bash

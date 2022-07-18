@@ -1,12 +1,11 @@
+#include </workspace/game-engine/include/GLFW/glfw3.h>
 #include <iostream>
-#include </workspace/game-engine/src/hello.h>
 
-void function() {
-  std::cout << "Hello, in a function\n";
-}
-
-int main() {
-  function();
-  hello();
-  return 0;
+int main(void)
+{
+    if (!glfwInit()) {
+      return -1;
+    }
+    std::cout << "Hello World\n";
+    return 0;
 }

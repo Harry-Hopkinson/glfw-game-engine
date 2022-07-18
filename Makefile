@@ -129,30 +129,6 @@ game-engine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game-engine.dir/build.make CMakeFiles/game-engine.dir/build
 .PHONY : game-engine/fast
 
-src/hello.o: src/hello.cpp.o
-.PHONY : src/hello.o
-
-# target to build an object file
-src/hello.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game-engine.dir/build.make CMakeFiles/game-engine.dir/src/hello.cpp.o
-.PHONY : src/hello.cpp.o
-
-src/hello.i: src/hello.cpp.i
-.PHONY : src/hello.i
-
-# target to preprocess a source file
-src/hello.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game-engine.dir/build.make CMakeFiles/game-engine.dir/src/hello.cpp.i
-.PHONY : src/hello.cpp.i
-
-src/hello.s: src/hello.cpp.s
-.PHONY : src/hello.s
-
-# target to generate assembly for a file
-src/hello.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game-engine.dir/build.make CMakeFiles/game-engine.dir/src/hello.cpp.s
-.PHONY : src/hello.cpp.s
-
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -186,9 +162,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... game-engine"
-	@echo "... src/hello.o"
-	@echo "... src/hello.i"
-	@echo "... src/hello.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
